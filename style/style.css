@@ -1,0 +1,27 @@
+.page-header {
+  padding: 1rem 6rem;
+}
+
+.main-content {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pl-c {
+  color: #969896;
+}
+
+.pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
+.pl-s .pl-v {
+  color: #0086b3;
+}
+
+.pl-e  /* entity */,
+.pl-en {
+  color: #795da3;
+}
+
