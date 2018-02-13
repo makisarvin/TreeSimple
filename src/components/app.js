@@ -8,7 +8,22 @@ export default class App extends Component {
 
     this.state = {
       treeData: [
-        { title: "Chicken", expanded: true, children: [{ title: "Egg" }] }
+        { title: "root", expanded: true, 
+        children: [
+          {
+            title: "default",
+            children: [ 
+              {title: "egg", children: [
+                { title: "default", children: [{ title:"chicken" }]} ,
+                { title: "overrides", children: [{ title: "dogs" }] },
+              ]}
+            ] 
+          },
+          {
+            title: "overrides",
+            children: [{ title: "eggs" }]
+          }
+        ] }
       ]
     };
   }
